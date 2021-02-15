@@ -1,0 +1,56 @@
+.app {
+  background: #209cee;
+  height: 100vh;
+  padding: 30px;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  max-width: 400px;
+  padding: 5px;
+}
+
+.todo {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+}
+
+.input {
+  padding: 0.6rem 0.6rem;
+  border: 1px solid gray;
+  border-radius: 0.2rem;
+  font-size: 12px;
+}
+
+.button {
+  min-height: 32px;
+  min-width: 32px;
+}
+
+.success {
+  background-color: limegreen;
+  color: white;
+  border: 0;
+  border-radius: 0.2rem;
+  margin: 0.2rem;
+  padding: 0.2rem 0.6rem;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.danger {
+  background-color: red;
+  color: white;
+  border: 0;
+  border-radius: 0.2rem;
+  margin: 0.2rem;
+  padding: 0.2rem 0.6rem;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
